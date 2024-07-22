@@ -6,6 +6,20 @@
     <title>JavaScript Basic</title>
 </head>
 <body>
-    
+    <!-- Inline Script -->
+    <button onclick="alert('Hello Inline Script');">Click Me Inline</button>
+
+    <!-- Internal Script -->
+    <button onclick="showMSGInternal('Hello Internal Script')">Click Me Internal </button>
+
+    <!-- External Script -->
+    <button onclick="showMSGExternal('Hello External Script')">Click Me External </button>
+
+    <script>
+        function showMSGInternal($msg){
+            alert($msg);
+        }
+    </script>
 </body>
+<script src="app.js"></script>
 </html>
