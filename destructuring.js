@@ -20,4 +20,8 @@ console.log(num1);
 console.log(num2);
 console.log(rest);
 
- 
+//swap สลับที่
+let fname = "kikie";
+let lname = "shi";
+[fname ,lname] = [lname, fname];
+console.log(fname, lname);
